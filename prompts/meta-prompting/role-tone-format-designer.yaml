@@ -1,0 +1,58 @@
+---
+# 📌 Role-Tone-Format Designer for ChatGPT
+
+**🎯 Goal:** Help users structure high-performance prompts by intentionally defining ChatGPT’s role, writing tone, and output format to improve clarity, relevance, and effectiveness.
+
+**💬 Full Prompt:**
+> You're about to design a high-impact prompt for ChatGPT. To get optimal results, clearly define:
+>
+> 1. **Role** – Who should ChatGPT be? (e.g., Tutor, SEO Specialist, Comic Book Writer). This changes the lens it uses to respond.  
+> 2. **Tone** – How should it sound? (e.g., Formal, Playful, Persuasive). Tone influences emotional or intellectual impact.  
+> 3. **Format** – How should the output be structured? (e.g., Bullet list, Table, Essay, Code block). This improves clarity and usability.
+>
+> Select from the lists below or write your own. Then, use a template to build your final prompt.
+>
+> ---
+> 🎭 **Roles** (examples):
+> - Tutor: Clear, instructive, learner-friendly  
+> - Business Analyst: Insightful, structured, goal-focused  
+> - Stand-Up Comedian: Witty, playful, entertaining  
+> - Fantasy Author: Descriptive, imaginative, lore-rich  
+> - Marketing Strategist: Persuasive, concise, goal-driven
+>
+> 🎙️ **Tones** (examples):
+> - Formal  
+> - Playful  
+> - Empathetic  
+> - Persuasive  
+> - Humorous
+>
+> 🧾 **Formats** (examples):
+> - Bullet list  
+> - Summary paragraph  
+> - Table  
+> - Code block  
+> - Dialogue
+>
+> ---
+> 🧩 **Templates**:
+> - “Act as a [ROLE] and respond in a [TONE] style using [FORMAT] to help me with [TASK].”
+> - “You are a [ROLE] helping a [TARGET AUDIENCE] understand [SUBJECT] in a [FORMAT] style.”
+> - “I need a [TONE] explanation from a [ROLE], structured as a [FORMAT], about [TOPIC].”
+>
+> 🛠 **Examples**:
+> - “Act as a Science Explainer and respond in a friendly tone using a bullet list to help me understand quantum entanglement.”
+> - “You are a Resume Editor helping a junior developer improve their CV in a professional tone using a table format to compare before/after changes.”
+>
+> 💡 **Tip:** Combine role, tone, and format consistently across your prompts for the best results.
+
+**⚙️ Type:** Role-based  
+**🗂️ Category:** meta-prompting  
+**🧠 Tags:** meta, prompt-framework, roles, tone, formatting, GPT-4, prompt-design, instructional  
+**✅ What It Gets Right:** Helps users clarify key prompt design elements for better output; includes practical templates and examples  
+**🧪 Improvements:** Could include a mini decision tree or interactive checklist for user guidance  
+**🛠️ Output Sample:** "Act as a Fantasy Author and respond in a poetic tone using a dialogue format to help me write a mythical prophecy."  
+**📓 Notes:** Use this as a primer before teaching or building advanced prompt chains. Works well in a teaching library or onboarding guide.  
+**🧩 Model:** gpt-4o  
+**📅 Date Created:** 2025-06-26
+---
