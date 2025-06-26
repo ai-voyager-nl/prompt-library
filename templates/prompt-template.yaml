@@ -1,0 +1,15 @@
+title: [Prompt Title]
+goal: [What this prompt is designed to achieve]
+prompt: >
+  "[Include the full prompt here]"
+type: [zero-shot | few-shot | role-based]
+category: [e.g., creativity-writing]
+tags:
+  - [e.g., playful, table, email]
+model: [gpt-4 | claude | gemini]
+tone: [playful | professional | empathetic]
+output_sample: >
+  "[Sample output from the prompt]"
+notes: "[Observations or improvements]"
+version: v1.0
+date_created: [YYYY-MM-DD]
