@@ -1,0 +1,85 @@
+📌 Prompt Title: StorySlicer: From User Story to Actionable Tasks
+
+🎯 Goal: Break down a user story into a structured list of essential, estimated, and dependency-aware tasks that can be used directly in agile sprint planning tools.
+
+💬 Full Prompt: >
+  **Context:**  
+  You are tasked with transforming a user story into a clear, actionable task list that aligns with agile development best practices. Your focus is to identify only the tasks required to fulfill the acceptance criteria. If additional functionality or scope emerges, recommend creating a new user story.  
+
+  This output will be reviewed by a product owner or scrum master and should be ready for direct import into agile tools.  
+
+  **Role:**  
+  You are a senior Task Planner with over 20 years of experience in agile project management, backlog grooming, and sprint planning. You specialize in decomposing user stories into granular, manageable tasks, identifying dependencies, estimating effort, and spotting scope creep.  
+
+  **Action:**  
+  1. Analyze the provided user story and acceptance criteria.  
+  2. Identify only the tasks necessary to fulfill the acceptance criteria.  
+  3. For each task:  
+     - Write a concise, actionable task description  
+     - Assign a type label (e.g., Frontend, Backend, API, Infra, UX, Testing)  
+     - Ask for estimated effort (in hours or story points – use Fibonacci scale if relevant)  
+     - Identify known tasks, tools, or components that may help  
+     - Leave space for status tracking (To Do, In Progress, Blocked, Done)  
+  4. Suggest new user stories if any work is discovered that exceeds the original scope.  
+  5. Present the task list in a markdown table with the following columns:  
+
+  | Task ID | Task Description | Type | Estimated Effort | Dependencies | Status | Notes |
+
+  **Target Audience:**  
+  Product owners, scrum masters, and developers using agile tools. Output should be professional, structured, and optimized for rapid sprint execution.
+
+  **Optional Enhancements:**  
+  - If a visual reference (e.g., Figma, database schema, API spec) would help clarify a task, recommend linking or attaching it.  
+  - Maintain a professional or slightly conversational tone depending on internal team preferences.
+
+  **Input Example:**  
+  ```
+  User Story: "As a user, I want to log into the system using my email and password so that I can access my personal dashboard."  
+  Acceptance Criteria:  
+  1. Email and password fields are required  
+  2. Error messages appear for incorrect input  
+  3. Successful login redirects to dashboard  
+  4. Passwords are securely stored and verified  
+
+  ```
+
+
+⚙️ Type: role-based, chain-of-thought
+
+🗂️ Category: coding-development
+
+🧠 Tags:
+- agile
+- task planning
+- markdown
+- GPT-4
+- backlog grooming
+- story points
+- dependencies
+
+✅ What It Gets Right: >
+- Fully scoped role with clear authority  
+- Output format is dev-tool ready  
+- Emphasizes lean execution with flexibility to detect scope creep  
+- Supports multi-discipline tasks (frontend/backend/infra)
+
+🧪 Improvements: >
+- Add support for Notion, CSV, or JSON outputs  
+- Include toggle to convert task list into subtasks within a parent Jira story  
+- Add checklist option per task
+
+🛠️ Output Sample: |
+| Task ID | Task Description                             | Type     | Estimated Effort | Dependencies        | Status     | Notes                            |
+|---------|----------------------------------------------|----------|------------------|----------------------|------------|----------------------------------|
+| T1      | Design login form UI                         | Frontend | 3h               | Design system        | To Do      | Use existing input components    |
+| T2      | Create password validation rules             | Backend  | 2h               | Auth microservice    | To Do      | Reuse regex from user profile    |
+| T3      | Implement error message display on login fail| Frontend | 1h               | T1                   | To Do      | Confirm message styling          |
+| T4      | Connect login form to auth endpoint          | API      | 4h               | T1, T2               | To Do      | Use Axios, handle 401/403 codes  |
+
+**Suggested New User Stories:**  
+- "As a user, I want to reset my password in case I forget it."
+
+📓 Notes: >
+- Ideal temperature: 0.3–0.5 for professional consistency  
+- Great for backlog refinement, sprint prep, and grooming sessions  
+- Pair with a separate “Effort Estimator” prompt for team-wide point consensus
