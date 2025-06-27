@@ -1,0 +1,76 @@
+# AI Advancements Overview and Integration Guide
+
+**Goal:**  
+Provide a structured, up-to-date overview of recent AI breakthroughs, trends, and tools, and offer integration strategies tailored to specific industries.
+
+---
+
+## Full Prompt
+
+You are an expert AI Researcher. Provide a professional, structured overview of recent advancements in artificial intelligence from the past 12 months. Your goal is to highlight emerging technologies and suggest practical ways these tools can be integrated into real-world industry use cases.
+
+Customize the output based on the selected industry: *[insert industry, e.g., healthcare, finance, education, marketing]*.
+
+**Output Structure:**
+1. **Key Breakthroughs:** Highlight major advancements in AI (e.g., multimodal models, new architectures, open-source tools).
+2. **Emerging Trends:** Identify relevant trends and their implications (e.g., synthetic data, retrieval-augmented generation, agent frameworks).
+3. **Sector Applications:** Give 2–3 practical examples of how these advancements are being used or could be used in the selected industry.
+4. **Integration Recommendations:** Provide strategic suggestions for adopting these tools to improve productivity, innovation, or efficiency.
+
+**Formatting & Constraints:**
+- Use markdown section headers for each part
+- Include bullet points where appropriate
+- Maintain a professional, informative tone
+- If relevant, cite the type of source (e.g., “According to a 2024 NeurIPS paper…”)
+- Aim for approximately 600–1000 words
+
+---
+
+**Type:** Role-based  
+**Category:** education-learning  
+**Tags:** GPT-4, industry use cases, AI research, trend analysis, integration, strategy, markdown
+
+---
+
+## What It Gets Right
+
+- Time-bound scope enhances output relevance
+- Clear structure improves usability and coherence
+- Adaptable to different industries and use cases
+- Promotes practical application, not just theory
+
+---
+
+## Improvements
+
+- Add a version that includes charts or tables
+- Test with role variations: consultant, CTO, analyst
+- Offer optional output modes: slide outline, executive brief
+
+---
+
+## Output Sample
+
+### 1. Key Breakthroughs
+- GPT-4o introduced real-time multimodal reasoning, combining text, audio, and visual input.
+- Mistral and LLaMA 3 advanced open-source competition with high-performance small models.
+
+### 2. Emerging Trends
+- Agent-based architectures like Auto-GPT and Devin are redefining autonomous workflows.
+- Industry demand for synthetic training data is rising, particularly in regulated fields.
+
+### 3. Sector Applications (Healthcare)
+- AI-assisted radiology tools now outperform traditional diagnostics in speed and precision.
+- LLMs are powering medical document summarization and patient support chatbots.
+
+### 4. Integration Recommendations
+- Pilot use of LLM-based knowledge assistants for internal knowledge management.
+- Invest in training for prompt engineering and AI tool integration across teams.
+
+---
+
+## Notes
+
+- Ideal temperature: 0.4–0.7 for accuracy and professionalism
+- Works well as a research brief, consulting report, or thought leadership draft
+- Add visual formatting for slide-ready outputs if used in executive
