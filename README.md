@@ -33,6 +33,7 @@ prompt-library/
 │ ├── business-marketing/
 │ ├── coaching-emotion/
 │ ├── coding-development/
+│ ├── creativity-visual/
 │ ├── education-learning/
 │ └── meta-prompting/
 ├── changelogs/ # (Optional) Track how prompts evolve over time
