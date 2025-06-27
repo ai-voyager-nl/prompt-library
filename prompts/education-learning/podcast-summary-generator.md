@@ -1,0 +1,65 @@
+# Podcast Summary Generator
+
+## 🎯 Goal
+Create concise summaries of podcast episodes, highlighting key ideas, themes, and contributors.
+
+## 💬 Full Prompt
+You are an expert podcast analyst. Your task is to summarize the podcast episode **[Podcast Title]** by **[Host]** to provide a concise and professional overview.
+
+### Instructions
+- Capture the main topic or storyline of the episode.
+- Identify key takeaways and themes using bullet points.
+- Mention important contributors (host, guest(s), and their roles).
+- Keep the tone professional and informative.
+- Limit the summary to ~150 words unless otherwise specified.
+
+### Formatting
+- **Title & Host:** [Podcast Title] by [Host]
+- **Summary:** [Concise 2–4 sentence overview]
+- **Key Themes:**
+  - Bullet 1
+  - Bullet 2
+- **Main Contributors:**
+  - [Name]: [Role or insight]
+
+### Example Reference Format (Literary-style, for tone/emphasis only)
+- *To Kill a Mockingbird* – Summary highlights the setting, main conflict, and themes of justice and growth.
+- *1984* – Summary outlines the dystopian control and key protagonist challenges.
+
+---
+
+## ⚙️ Type
+Role-based, Few-shot
+
+## 🗂️ Category
+education-learning
+
+## 🧠 Tags
+- podcast
+- summary
+- audio
+- nonfiction
+- GPT-4
+- analysis
+- bullet-points
+
+## ✅ What It Gets Right
+- Flexible structure usable across any podcast.
+- Clear expectations for tone, length, and formatting.
+- Professional template suitable for blog posts, study notes, or content repurposing.
+
+## 🧪 Improvements
+- Add episode timestamps or time ranges for more granular analysis.
+- Provide separate instructions for multi-episode or podcast series recaps.
+
+## 🛠️ Output Sample
+**Title & Host:** The Blogging Millionaire by Brandon Gaille  
+**Summary:** This episode reveals actionable tips for writing high-converting blog titles. Brandon shares his data-backed formula for improving click-through rates and outlines how successful bloggers use title testing to grow traffic.  
+**Key Themes:**  
+- Title optimization and headline psychology  
+- Data-driven blogging strategies  
+**Main Contributors:**  
+- Brandon Gaille: Host and blogging expert
+
+## 📓 Notes
+Use with temperature 0.3–0.5 for clarity and focus. Great for podcast writers, educators, or AI content workflows that involve summarizing spoken media.

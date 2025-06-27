@@ -1,0 +1,69 @@
+# 📌 Prompt Title: Summarize Attached Transcript
+
+## 🎯 Goal
+Generate a detailed and professional summary from an attached transcript, capturing key points, themes, and significant details.
+
+## 💬 Full Prompt
+You are an expert summarizer. I want you to generate a detailed summary from the attached transcript.
+
+**Context:**  
+Consider the following while crafting the summary:
+- Focus on capturing the main points, key themes, and any significant details discussed in the transcript.
+
+**Source(s):**  
+Use the style and clarity of the following examples as reference:
+- **Transcript Example 1:**  
+  Summary: The transcript covers a discussion on climate change, focusing on the impact of global warming on polar ice caps. Key themes include the rising sea levels, the loss of habitat for polar bears, and the international efforts to reduce carbon emissions.
+- **Transcript Example 2:**  
+  Summary: The transcript details a business meeting where the quarterly financial results are reviewed. Key points include the increase in revenue, the challenges faced in the marketing department, and the strategic plans for the next quarter.
+
+**Expectations:**
+- Summarize the main points discussed.
+- Highlight key themes and significant details.
+- Ensure the summary is concise and captures the essence of the conversation.
+- Use bullet points to structure key themes and details.
+- Maintain a professional and informative tone.
+
+---
+
+## ⚙️ Type
+Role-based
+
+## 🗂️ Category
+business-productivity
+
+## 🧠 Tags
+- summary
+- transcript
+- GPT-4
+- bullet-points
+- professional
+- structured
+
+---
+
+## ✅ What It Gets Right
+- Clear structure and guidance for generating professional summaries
+- Examples help guide tone and detail level
+- Includes expectations and formatting instructions for consistency
+
+## 🧪 Improvements
+- Optionally allow tone variation (e.g., more casual summaries)
+- Add character/word limit variants for different contexts (e.g., executive brief vs. full detail)
+- Include summary tiering (short, medium, long)
+
+## 🛠️ Output Sample
+**Summary:**  
+The transcript outlines a product strategy meeting with a focus on Q3 planning.
+- **Key Themes:**
+  - Revenue growth of 12% over last quarter
+  - Concerns about delayed product launches
+  - New marketing initiatives in APAC
+- **Additional Details:**
+  - Leadership transitions in the sales team
+  - Plans to expand the customer support center
+
+---
+
+## 📓 Notes
+Works best with temperature 0.3–0.5 for factual precision. Suitable for meeting recaps, interviews, podcast transcripts, or training

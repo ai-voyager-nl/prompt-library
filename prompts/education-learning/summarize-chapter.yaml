@@ -1,0 +1,66 @@
+📌 Prompt Title: Summarize a Chapter of a Book
+🎯 Goal: Provide a professional, structured summary of a specific book chapter that captures the core message, key notes, actionable steps, and practical exercises.
+💬 Full Prompt: >
+  You are an expert literary analyst. I want you to summarize the book chapter '[Book Title] - [Chapter]' to provide a concise overview.
+
+  **Expectations:**
+  1. Provide the title and author of the book.
+  2. Specify the chapter number or title.
+  3. Summarize the main takeaway of the chapter.
+  4. Highlight key takeaways explored in the chapter.
+  5. List all detailed actionable steps from the chapter.
+  6. List all practical exercises to follow from the chapter.
+
+  **Formatting & Constraints:**
+  - Ensure the summary is concise and captures the essence of the chapter.
+  - Use bullet points for key notes, actionable steps, and practical exercises.
+  - Maintain a professional and informative tone.
+
+  **Context:**
+  I am looking for a summary that reflects the main idea of the chapter, outlines its key insights, and offers guidance that can be practically applied or reflected upon.
+
+  **Source(s) to Emulate:**
+  Example 1:
+  'Chapter 1 of To Kill a Mockingbird' by Harper Lee – introduces key characters, setting, and themes like racial injustice and moral development.
+
+  Example 2:
+  'Chapter 5 of 1984' by George Orwell – focuses on propaganda, Party control, and Winston’s inner conflict.
+
+  **Use this structure in your response:**
+  - Chapter Title & Author
+  - Summary
+  - Key Notes
+  - Actionable Steps
+  - Practical Exercises
+⚙️ Type: Role-based
+🗂️ Category: education-learning
+🧠 Tags: [summary, GPT-4, bullet-points, book-analysis, professional, chapter]
+✅ What It Gets Right: >
+  Clear task assignment to the model with an expert role.
+  Structured expectations (summary + insights + action steps).
+  Professional, reusable framework for educational or coaching contexts.
+🧪 Improvements: >
+  Add optional tone modifiers (e.g., motivational, philosophical).
+  Could include a field for reader level (e.g., beginner, advanced).
+  Allow comparison to other chapters or books for advanced users.
+🛠️ Output Sample: >
+  **Chapter 3 of 'The Great Gatsby' by F. Scott Fitzgerald**
+  
+  **Summary:** Nick attends one of Gatsby’s opulent parties and meets the mysterious host. The chapter explores themes of illusion and excess.
+
+  **Key Notes:**
+  - Gatsby’s parties symbolize the Jazz Age’s extravagance
+  - Guests are largely uninvited and unaware of Gatsby’s identity
+  - Gatsby himself is quiet, refined, and shrouded in mystery
+
+  **Actionable Steps:**
+  - Reflect on appearances vs reality in social situations
+  - Journal about a time when you misjudged someone based on first impressions
+
+  **Practical Exercises:**
+  - Write a scene where a mysterious character hosts an event
+  - Identify themes of illusion and identity in your own life or fiction readings
+📓 Notes: >
+  Works well at temperature 0.5–0.7 for focused summarization.
+  Great for literature educators, book club leaders, and learners.
+  Easily adaptable for video summaries, podcast scripts, or study guides.
