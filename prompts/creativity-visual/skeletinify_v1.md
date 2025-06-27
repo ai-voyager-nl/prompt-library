@@ -77,3 +77,7 @@ Use a semi-transparent, glasslike overlay to expose this internal structure whil
 - Works best with GPT-4 Vision at temperature 0.8+ for imaginative scenarios
 - Great for concept art, storytelling prompts, surreal design, and educational illustrations
 - Can be adapted as a layer in AR/VR applications or speculative hardware
+
+## 🙌 Credit
+
+ Originally created by [@firatbilal on Twitter](https://x.com/firatbilal/status/1930562939355795554)
