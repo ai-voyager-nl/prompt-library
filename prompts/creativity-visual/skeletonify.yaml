@@ -1,0 +1,63 @@
+# 📌 Prompt Title: Skeletonify Anything
+
+🎯 Goal: Reveal the imagined inner structure of any object in an uploaded image—whether biological, mechanical, or surreal—by using adaptive style transfer in a generative prompt.
+
+💬 Full Prompt: >
+  Analyze the uploaded image and automatically adapt the inner structure style based on the object's category.
+  - If the object is biological, reveal a plausible bone structure.
+  - If mechanical or electronic, render internal wiring, circuitry, or functional mechanisms.
+  - If surreal or imaginary, generate a stylized inner system that visually fits the object's form and logic.
+  Use a semi-transparent, glasslike overlay to expose this internal structure while preserving context and silhouette. Emphasize internal edges with soft glowing outlines. Lighting and color should contrast yet harmonize with the object's outer shell.
+
+  ```json
+  {
+    "preset": "skeletonify_v1",
+    "instruction": "Analyze the uploaded image and automatically adapt the inner structure style based on the object's category. If the object is biological, reveal a plausible bone structure. If mechanical or electronic, render internal wiring, circuitry, or functional mechanisms. If surreal or imaginary, generate a stylized inner system that visually fits the object's form and logic.",
+    "base_image": "uploaded_image",
+    "style_transfer": {
+      "transparency_effect": {
+        "type": "context-aware semi-transparency",
+        "opacity_level": 60,
+        "material_appearance": "glasslike or organic translucency based on surface",
+        "outline_emphasis": "soft glowing inner edges for structure definition"
+      },
+      "inner_structure": {
+        "type": "object-specific skeletal framework",
+        "design": "contextual — anatomical skeleton for creatures or humanoids, internal components for machines (wires, circuits, frames), abstract visual logic for surreal entities",
+        "material": "adaptive (bone, plastic, metal, resin, or energetic core depending on object)",
+        "detail_level": "high, with component precision and silhouette integration",
+        "color_scheme": "optimized for contrast and harmony with outer shell (e.g. warm glows under cool tones)"
+      },
+      "lighting_and_rendering": {
+        "lighting_type": "adaptive to original environment (natural, ambient, or studio-like)",
+        "shadow": "subtle or minimal to keep focus on interior",
+        "highlight": "inner glow accents on bones, circuits, or abstract forms",
+        "background": "maintain original scene or lightly blur it to enhance subject clarity"
+      },
+      "application_target": "Reveal the object's inner anatomy or mechanism in a scientifically plausible or artistically coherent way. Avoid generic human skeletons unless the object clearly represents a human form. Prioritize visual storytelling through internal-external material contrast."
+    }
+  }
+  ```
+
+  ⚙️ Type: Role-based
+🗂️ Category: creativity-visual
+🧠 Tags: image-to-text, generative art, JSON, surreal, anatomy, internal structure, ChatGPT Vision
+
+✅ What It Gets Right:
+- Highly adaptive logic for different object types (biological, mechanical, surreal)
+- Balances science and artistic interpretation
+- Context-aware rendering logic for detailed, believable internal representations
+- Useful for both storytelling and speculative design
+
+🧪 Improvements:
+- Add a toggle for realism vs imagination (slider or temperature equivalent)
+- Allow optional layer naming (bones, circuits, core) for interactive UIs
+- Add support for background replacement or enhancement options
+
+🛠️ Output Sample: >
+  Uploaded image: a toaster. Revealed internal schematic shows copper wires, coiled heating elements, and an LED brain glowing inside the frame. Glasslike casing reveals precise structure with soft glows at junctions.
+
+📓 Notes:
+- Works best with GPT-4 Vision at temperature 0.8+ for imaginative scenarios
+- Great for concept art, storytelling prompts, surreal design, and educational illustrations
+- Can be adapted as a layer in AR/VR applications or speculative hardware design prompts
