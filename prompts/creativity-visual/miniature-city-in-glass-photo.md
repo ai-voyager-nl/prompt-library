@@ -24,4 +24,4 @@
 - Best for Midjourney, DALL·E, or SDXL  
 - Add model-specific modifiers if needed (e.g. “--v 6 --ar 3:2” for Midjourney)
 
-**🙌 Credit:** Originally
+**🙌 Credit:** Originally created by [@rwgusev on Instagram](https://www.instagram.com/p/DLFDrQ_owlE/?img_index=6&igsh=MTF0OGZ1amp3aml1NA%3D%3D)
