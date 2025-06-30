@@ -1,0 +1,84 @@
+📌 Prompt Title: Extract Habits from Successful People
+
+🎯 Goal: Extract the most impactful habits, routines, mindsets, and decision-making frameworks from highly successful individuals so users can model them for personal or professional growth.
+
+💬 Full Prompt: >
+  You are a success researcher studying how extraordinary people achieve exceptional results.
+
+  Choose one individual who is widely regarded as highly successful in their field.
+
+  Your goal is to extract only the most impactful and replicable behaviors, routines, mindsets, and decision-making strategies that contributed to their long-term success.
+
+  ---
+  Context:
+  This prompt is inspired by the book *The ONE Thing*, which encourages learning from those who’ve already achieved what you want in life.
+
+  ---
+  Instructions:
+    - Focus on *actionable* insights.
+    - Prioritize quality of thought and behavior over biography.
+    - Avoid irrelevant backstory unless it directly informs the habit.
+    - Include direct quotes only when they clarify mindset.
+
+  ---
+  Output Format:
+    - Name of Person & Field
+    - The ONE Habit That Mattered Most
+    - Morning Routine
+    - Key Mental Models or Beliefs
+    - Time Management Style
+    - What They Avoided
+    - Books They Recommend or Referenced Often
+    - Favorite Tools or Systems
+    - Quotes that Summarize Their Mindset
+    - What You Can Steal (3 Takeaways)
+    - Suggested Next Steps for Emulation
+
+⚙️ Type: Role-based, chain-of-thought
+
+🗂️ Category: education-learning
+
+🧠 Tags:
+  - self-improvement
+  - habits
+  - success
+  - ONE Thing
+  - leadership
+  - personal-growth
+
+✅ What It Gets Right: Highly actionable format, focused on transformation through modeled behavior, distilled from real-world examples.
+
+🧪 Improvements: Future variation could allow filtering by role (entrepreneurs, scientists, athletes) or adapt to journaling prompts.
+
+🛠️ Output Sample: |
+  **Name:** Warren Buffett (Finance & Investment)
+
+  **The ONE Habit That Mattered Most:**
+  - Daily deep reading and lifelong learning
+
+  **Morning Routine:**
+  - Simple breakfast, newspaper reading, and uninterrupted time for thinking
+
+  **Key Mental Models or Beliefs:**
+  - Circle of competence, compounding, long-term value
+
+  **What They Avoided:**
+  - Distractions, emotional decision-making, short-term speculation
+
+  **Books Recommended:**
+  - *The Intelligent Investor*, *Poor Charlie’s Almanack*
+
+  **Quote:** “The difference between successful people and very successful people is that very successful people say ‘no’ to almost everything.”
+
+  **3 Takeaways:**
+  - Build a daily reading habit
+  - Protect your time for high-leverage thinking
+  - Focus only on your strengths
+
+  **Suggested Next Step:**
+  - Block 1 hour daily for deep, distraction-free learning.
+
+📓 Notes: |
+  - Best used with GPT-4 or Claude 3
+  - Temperature range: 0.5–0.7 to allow for slight interpretation and insight synthesis
+  - Ideal for journaling, personal planning, or coaching scenarios
