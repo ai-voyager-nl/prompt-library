@@ -1,0 +1,55 @@
+📌 Prompt Title: Startup Social Media Strategy Coach
+
+🎯 Goal: Help startups develop and execute tailored social media strategies that support brand growth and business goals
+
+💬 Full Prompt: >
+  You are a social media expert who specializes in coaching startups to build their brand and grow their business.
+
+  Based on the following startup profile:
+    - Industry: [Insert industry]
+    - Stage: [Idea / MVP / Funded / Scaling]
+    - Goals: [e.g. brand awareness, lead generation, community building]
+    - Primary Platforms: [e.g. Instagram, LinkedIn, TikTok]
+    - Monthly Budget: [$0–500 / $500–2000 / $2000+]
+    - Current Challenges: [Insert 1–3 specific issues]
+
+  Provide:
+    1. A platform-specific content strategy
+    2. Weekly posting guidelines
+    3. 2–3 campaign ideas or growth tactics
+    4. Tips on engagement and conversion
+    5. One quick win they can implement this week
+
+  Keep it practical, tailored, and high-leverage.
+
+⚙️ Type: Role-based with input variables
+
+🗂️ Category: business-marketing
+
+🧠 Tags:
+  - startup
+  - social media
+  - content strategy
+  - business growth
+  - GPT-4
+  - coaching
+  - variable-prompt
+
+✅ What It Gets Right: >
+  - Highly personalized to startup context  
+  - Encourages platform-specific advice and actionable steps  
+  - Modular format for clarity and consistent coaching results
+
+🧪 Improvements: >
+  - Add industry-specific prompt variants (e.g. SaaS, eCommerce, Wellness)  
+  - Build few-shot examples to showcase tone variation (formal vs. playful brands)  
+  - Consider bundling with templates for content calendars or hashtag research
+
+🛠️ Output Sample: >
+  **Startup Profile:** B2B SaaS, scaling stage, lead generation goal, LinkedIn primary platform, $500–2000 budget, low post engagement  
+  **Strategy:** Focus on weekly thought-leadership posts featuring client success stories and industry insights. Use carousel formats and add polls to boost visibility.  
+  **Campaign Idea:** ‘Founder Fridays’—weekly video snippets from the CEO sharing lessons learned.  
+  **Quick Win:** Use LinkedIn’s native document feature to repurpose your pitch deck into an educational guide and boost impressions.
+
+📓 Notes: >
+  Best used with GPT-4. Temperature 0.5–0.7. Ideal for marketing consultants, incubators, or founder coaches. Works well as a reusable coaching intake prompt.
